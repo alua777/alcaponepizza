@@ -1,0 +1,27 @@
+{ 
+ "food":[
+{
+   "name": "Pizza",
+   "type": "marecoana",
+   "description": "This is the best pizza for the priceas",
+   "id": 1,
+   "price": 2442
+   
+ },
+{
+   "name": "Hamburger",
+   "type": "Beffgood",
+   "description": "of if its not the best beef burger that you can get ",
+   "id": 2,
+   "price":5211
+ }],
+"add-ons":[
+  {
+  "id": 1,
+  "name": "cream base",
+"price": 1510
+
+}
+
+]
+} 
