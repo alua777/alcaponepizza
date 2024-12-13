@@ -1,0 +1,51 @@
+.header {
+    padding: 0 120px 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #DBDADA;
+    font-size: 20px;
+
+    > img {
+        width: 114px;
+        height: 114px;
+    }
+
+    &_pages {
+        display: flex;
+        justify-content: space-between;
+        gap: 92px;
+    }
+
+    &_buttons {
+        display: flex;
+        justify-content: space-between;
+        font-size: 22px;
+        font-weight: 700;
+        gap: 37px;
+
+        &_number {
+            display: flex;
+            justify-content: center;
+            color: #2C2C2C;
+            border: 1px solid #2C2C2C;
+            border-radius: 18px;
+            width: 219px;
+            height: 58px;
+            align-items: center;
+            gap: 8px;
+        }
+
+        > button {
+            width: 219px;
+            height: 58px;
+            background-color: #2C2C2C;
+            border-radius: 18px;
+            color: white;
+            font-size: 22px;
+            font-weight: 700;
+            cursor: pointer;
+
+        }
+    }
+}
