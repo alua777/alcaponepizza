@@ -1,0 +1,12 @@
+.menu{
+    padding-top: 51px;
+    &_list{
+        
+        width: 50%;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 100px;
+        row-gap: 10px;
+    }
+
+}
