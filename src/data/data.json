@@ -1,27 +1,26 @@
-{ 
- "food":[
 {
-   "name": "Pizza",
-   "type": "marecoana",
-   "description": "This is the best pizza for the priceas",
-   "id": 1,
-   "price": 2442
-   
- },
-{
-   "name": "Hamburger",
-   "type": "Beffgood",
-   "description": "of if its not the best beef burger that you can get ",
-   "id": 2,
-   "price":5211
- }],
-"add-ons":[
-  {
-  "id": 1,
-  "name": "cream base",
-"price": 1510
-
-}
-
-]
-} 
+    "food": [
+      {
+        "name": "Caprio",
+        "type": "marecoana",
+        "description": "paradajkový pretlak, mozzarella syr, šunka, kukurica",
+        "id": 1,
+        "price": 7.10
+      },
+      {
+        "name": "Pulled Pork Burger Menu",
+        "type": "Beffgood",
+        "description": "trhané mäso, BURGER, hranolky",
+        "id": 2,
+        "price": 7.40
+      }
+    ],
+    "add-ons": [
+      {
+        "id": 1,
+        "name": "cream base",
+        "price": 1510
+      }
+    ]
+  }
+  
