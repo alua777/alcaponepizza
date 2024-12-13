@@ -1,26 +1,83 @@
 {
-    "food": [
-      {
-        "name": "Caprio",
-        "type": "marecoana",
-        "description": "paradajkový pretlak, mozzarella syr, šunka, kukurica",
-        "id": 1,
-        "price": 7.10
-      },
-      {
-        "name": "Pulled Pork Burger Menu",
-        "type": "Beffgood",
-        "description": "trhané mäso, BURGER, hranolky",
-        "id": 2,
-        "price": 7.40
-      }
-    ],
-    "add-ons": [
-      {
-        "id": 1,
-        "name": "cream base",
-        "price": 1510
-      }
-    ]
-  }
-  
+  "pizzas": [
+    {
+      "name": "CAPRIO",
+      "description": "paradajkový pretlak, mozzarella syr, šunka, kukurica",
+      "price": 7.10
+    },
+    {
+      "name": "FUNGHI",
+      "description": "paradajkový pretlak, mozzarella syr, šunka, šampiony, olivy",
+      "price": 7.10
+    },
+    {
+      "name": "VEGETARIANA",
+      "description": "paradajkový pretlak, mozzarella syr, šampiňóny, kukurica, brokolica, cesnak",
+      "price": 7.10
+    },
+    {
+      "name": "QUATTRO FORMAGGI",
+      "description": "paradajkový pretlak, mozzarella syr, údený syr, syr niva, parmezán, cesnak",
+      "price": 7.80
+    },
+    {
+      "name": "HAWAII",
+      "description": "paradajkový pretlak, mozzarella syr, šunka, ananás, cesnak",
+      "price": 7.00
+    }
+    // ... Add the remaining pizzas here ...
+  ],
+  "hamburgers": [
+    {
+      "name": "BURGER",
+      "description": "žemľa, hovädzie mäso, syr, bacon slanina, paradajky, cibuľa, kyslá uhorka, šalát, dresing",
+      "price": 6.20
+    },
+    {
+      "name": "BURGER MENU",
+      "description": "hovädzí BURGER, hranolky",
+      "price": 7.20
+    },
+    {
+      "name": "PULLED PORK BURGER",
+      "description": "žemľa, trhane mäso, syr, paradajky, cibuľa, kyslá uhorka, šalát, dresing",
+      "price": 6.40
+    },
+    {
+      "name": "PULLED PORK BURGER MENU",
+      "description": "trhane mäso, BURGER, hranolky",
+      "price": 7.40
+    },
+    {
+      "name": "PULLED PORK A COLESLAW BURGER MENU",
+      "description": "trhane mäso, salat coleslaw, BURGER, hranolky",
+      "price": 7.40
+    },
+    {
+      "name": "PULLED PORK A COLESLAW BURGER",
+      "description": "žemľa, trhane mäso, salat coleslaw, burger",
+      "price": 6.40
+    },
+    {
+      "name": "BURGER – KURACÍ",
+      "description": "žemľa, kuracie mäso, syr, bacon slanina, paradajky, cibuľa, kyslá uhorka, šalát, dresing",
+      "price": 6.00
+    },
+    {
+      "name": "BURGER MENU – KURACÍ",
+      "description": "kurací BURGER, hranolky",
+      "price": 7.00
+    },
+    {
+      "name": "BURGER – SYROVÝ",
+      "description": "žemľa, vyprážaný syr, bacon slanina, paradajky, cibuľa, kyslá uhorka, šalát, dresing",
+      "price": 5.70
+    },
+    {
+      "name": "BURGER MENU – SYROVÝ",
+      "description": "syrový BURGER, hranolky",
+      "price": 6.70
+    }
+    // ... Add the remaining hamburgers here ...
+  ]
+}
