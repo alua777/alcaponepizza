@@ -1,83 +1,190 @@
 {
-  "pizzas": [
-    {
-      "name": "CAPRIO",
-      "description": "paradajkový pretlak, mozzarella syr, šunka, kukurica",
-      "price": 7.10
-    },
-    {
-      "name": "FUNGHI",
-      "description": "paradajkový pretlak, mozzarella syr, šunka, šampiony, olivy",
-      "price": 7.10
-    },
-    {
-      "name": "VEGETARIANA",
-      "description": "paradajkový pretlak, mozzarella syr, šampiňóny, kukurica, brokolica, cesnak",
-      "price": 7.10
-    },
-    {
-      "name": "QUATTRO FORMAGGI",
-      "description": "paradajkový pretlak, mozzarella syr, údený syr, syr niva, parmezán, cesnak",
-      "price": 7.80
-    },
-    {
-      "name": "HAWAII",
-      "description": "paradajkový pretlak, mozzarella syr, šunka, ananás, cesnak",
-      "price": 7.00
-    }
-    // ... Add the remaining pizzas here ...
-  ],
-  "hamburgers": [
-    {
-      "name": "BURGER",
-      "description": "žemľa, hovädzie mäso, syr, bacon slanina, paradajky, cibuľa, kyslá uhorka, šalát, dresing",
-      "price": 6.20
-    },
-    {
-      "name": "BURGER MENU",
-      "description": "hovädzí BURGER, hranolky",
-      "price": 7.20
-    },
-    {
-      "name": "PULLED PORK BURGER",
-      "description": "žemľa, trhane mäso, syr, paradajky, cibuľa, kyslá uhorka, šalát, dresing",
-      "price": 6.40
-    },
-    {
-      "name": "PULLED PORK BURGER MENU",
-      "description": "trhane mäso, BURGER, hranolky",
-      "price": 7.40
-    },
-    {
-      "name": "PULLED PORK A COLESLAW BURGER MENU",
-      "description": "trhane mäso, salat coleslaw, BURGER, hranolky",
-      "price": 7.40
-    },
-    {
-      "name": "PULLED PORK A COLESLAW BURGER",
-      "description": "žemľa, trhane mäso, salat coleslaw, burger",
-      "price": 6.40
-    },
-    {
-      "name": "BURGER – KURACÍ",
-      "description": "žemľa, kuracie mäso, syr, bacon slanina, paradajky, cibuľa, kyslá uhorka, šalát, dresing",
-      "price": 6.00
-    },
-    {
-      "name": "BURGER MENU – KURACÍ",
-      "description": "kurací BURGER, hranolky",
-      "price": 7.00
-    },
-    {
-      "name": "BURGER – SYROVÝ",
-      "description": "žemľa, vyprážaný syr, bacon slanina, paradajky, cibuľa, kyslá uhorka, šalát, dresing",
-      "price": 5.70
-    },
-    {
-      "name": "BURGER MENU – SYROVÝ",
-      "description": "syrový BURGER, hranolky",
-      "price": 6.70
-    }
-    // ... Add the remaining hamburgers here ...
-  ]
+  "categories": {
+    "pizzas": [
+      {
+        "name": "CAPRIO",
+        "description": "paradajkový pretlak, mozzarella syr, šunka, kukurica",
+        "price": 7.10
+      },
+      {
+        "name": "FUNGHI",
+        "description": "paradajkový pretlak, mozzarella syr, šunka, šampiňóny, olivy",
+        "price": 7.10
+      },
+      {
+        "name": "VEGETARIANA",
+        "description": "paradajkový pretlak, mozzarella syr, šampiňóny, kukurica, brokolica, cesnak",
+        "price": 7.10
+      },
+      {
+        "name": "QUATTRO FORMAGGI",
+        "description": "paradajkový pretlak, mozzarella syr, údený syr, syr niva, parmezán, cesnak",
+        "price": 7.80
+      },
+      {
+        "name": "HAWAII",
+        "description": "paradajkový pretlak, mozzarella syr, šunka, ananás, cesnak",
+        "price": 7.00
+      }
+      {
+        "name": "Al Capone",
+        "description": "smotanový základ, syr mozzarella, kuracie ragu, syr niva, kukurica, chilli, šampiňóny, slanina, cesnak",
+        "price": 8.30
+      },
+      {
+        "name": "Gazdovská",
+        "description": "paradajkový pretlak, mozzarella syr, slanina, klobása, saláma, cibuľa, jalapeño papričky, cesnak",
+        "price": 8.10
+      },
+      {
+        "name": "Pulled Pork",
+        "description": "paradajkový pretlak, mozzarella syr, trhané mäso, cibuľa, cesnak",
+        "price": 6.80
+      },
+      {
+        "name": "Hungaria",
+        "description": "paradajkový pretlak, mozzarella syr, slanina, klobása, saláma, cibuľa, feferóny, cesnak",
+        "price": 8.10
+      },
+      {
+        "name": "Don Vito",
+        "description": "smotanový základ, mozzarella syr, šunka, kuracie ragu, kukurica, cesnak",
+        "price": 7.70
+      },
+      {
+        "name": "Tonno",
+        "description": "paradajkový pretlak, mozzarella syr, tuniak, cibuľa, olivy, cesnak",
+        "price": 7.70
+      },
+      {
+        "name": "Slovakia",
+        "description": "paradajkový pretlak, mozzarella syr, údený syr, saláma, paprika kápia, cibuľa, cesnak",
+        "price": 7.70
+      },
+      {
+        "name": "Pizza Boss",
+        "description": "paradajkový pretlak, mozzarella syr, syr niva, šunka, slanina, šampiňóny, cesnak",
+        "price": 7.70
+      },
+      {
+        "name": "Piedone",
+        "description": "paradajkový pretlak, mozzarella syr, klobása, cibuľa, fazuľa, jalapeño papričky, cesnak",
+        "price": 7.70
+      },
+      {
+        "name": "Pikant",
+        "description": "paradajkový pretlak, mozzarella syr, syr niva, pikantná saláma, cibuľa, feferóny",
+        "price": 7.90
+      },
+      {
+        "name": "Ricotta",
+        "description": "paradajkový pretlak, mozzarella syr, bryndza, slanina, saláma, cesnak",
+        "price": 7.70
+      },
+      {
+        "name": "Na Želanie",
+        "description": "paradajkový pretlak, 4 ingrediencie podľa želania",
+        "price": 7.70
+      },
+      {
+        "name": "Don Corleone",
+        "description": "mozzarella syr, kurací/teľací gyros, cibuľa, dresing podľa výberu: kôprový, pikantný",
+        "price": 8.20
+      },
+      {
+        "name": "Bačovská",
+        "description": "smotanovo cesnakový základ, syr mozzarella, šunka, kuracie ragu, kukurica, paradajky, baranie rohy",
+        "price": 8.10
+      },
+      {
+        "name": "Fries",
+        "description": "paradajkový pretlak, kuracie ragu, slanina, hranolky, mozzarella syr, údený syr, kukurica",
+        "price": 8.10
+      },
+      {
+        "name": "Cream Cheese Pizza",
+        "description": "syrový krém, saláma, kuracie ragu, kukurica, šampiňóny, oregáno",
+        "price": 7.70
+      },
+      {
+        "name": "Ham & Eggs",
+        "description": "paradajkový pretlak, mozzarella syr, šunka, údený syr, vajcia, paradajka, paprika kápia, oregano",
+        "price": 8.10
+      }
+    ],
+    "hamburgers": [
+      {
+        "name": "BURGER",
+        "description": "žemľa, hovädzie mäso, syr, bacon slanina, paradajky, cibuľa, kyslá uhorka, šalát, dresing",
+        "price": 6.20
+      },
+      {
+        "name": "BURGER MENU",
+        "description": "hovädzí BURGER, hranolky",
+        "price": 7.20
+      },
+      {
+        "name": "PULLED PORK BURGER",
+        "description": "žemľa, trhané mäso, syr, paradajky, cibuľa, kyslá uhorka, šalát, dresing",
+        "price": 6.40
+      },
+      {
+        "name": "PULLED PORK BURGER MENU",
+        "description": "trhané mäso, BURGER, hranolky",
+        "price": 7.40
+      },
+      {
+        "name": "PULLED PORK A COLESLAW BURGER MENU",
+        "description": "trhané mäso, šalát coleslaw, BURGER, hranolky",
+        "price": 7.40
+      },
+      {
+        "name": "PULLED PORK A COLESLAW BURGER",
+        "description": "žemľa, trhané mäso, šalát coleslaw, BURGER",
+        "price": 6.40
+      },
+      {
+        "name": "BURGER – KURACÍ",
+        "description": "žemľa, kuracie mäso, syr, bacon slanina, paradajky, cibuľa, kyslá uhorka, šalát, dresing",
+        "price": 6.00
+      },
+      {
+        "name": "BURGER MENU – KURACÍ",
+        "description": "kurací BURGER, hranolky",
+        "price": 7.00
+      },
+      {
+        "name": "BURGER – SYROVÝ",
+        "description": "žemľa, vyprážaný syr, bacon slanina, paradajky, cibuľa, kyslá uhorka, šalát, dresing",
+        "price": 5.70
+      },
+      {
+        "name": "BURGER MENU – SYROVÝ",
+        "description": "syrový BURGER, hranolky",
+        "price": 6.70
+      }
+    ],
+    "salads": [
+      {
+        "name": "KURACÍ ŠALÁT",
+        "description": "ľadový šalát, paprika, kukurica, uhorky, kuracie mäso, čierne olivy, paradajky, 2x posúch",
+        "price": 5.20
+      },
+      {
+        "name": "Caesar šalát",
+        "description": "ľadový šalát, parmezán, grilované kuracie prsia, krutonky, dressing caesar",
+        "price": 5.20
+      },
+      {
+        "name": "FITNESS ŠALÁT",
+        "description": "ľadový šalát, kukurica, paprika, mrkva, uhorky, syr mozzarella, vajcia",
+        "price": 5.20
+      },
+      {
+        "name": "GYROS ŠALÁT",
+        "description": "ľadový šalát, biela kapusta, uhorky, červená cibuľa, cherry paradajky, kurací/teľací gyros",
+        "price": 5.20
+      }
+    ]
+  }
 }
